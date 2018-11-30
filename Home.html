@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Bootstrap Example</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <style>
+    /* Remove the navbar's default margin-bottom and rounded borders */ 
+    .navbar {
+      margin-bottom: 0;
+      border-radius: 0;
+    }
+    
+    /* Set height of the grid so .sidenav can be 100% (adjust as needed) */
+    .row.content {height: 750px}
+    
+    /* Set gray background color and 100% height */
+    .sidenav {
+      padding-top: 20px;
+      background-color: floralwhite;
+      height: 100%;
+    }
+    
+    /* Set black background color, white text and some padding */
+    footer {
+      background-color: gray;
+      color: white;
+      padding: 15px;
+    }
+    
+    /* On small screens, set height to 'auto' for sidenav and grid */
+    @media screen and (max-width: 767px) {
+      .sidenav {
+        height: auto;
+        padding: 15px;
+      }
+      .row.content {height:auto;} 
+    }
+      
+      /* unvisited link */
+a:link { color: dimgrey;}
+
+/* visited link */
+a:visited { color: green;}
+
+/* mouse over link */
+a:hover { color:blue ;}
+
+/* selected link */
+a:active { color: skyblue;}
+  </style>
+</head>
+<body>
+
+<nav class="navbar navbar-inverse">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>                        
+      </button>
+      <a class="navbar-brand"></a>
+    </div>
+    <div class="collapse navbar-collapse" id="myNavbar">
+      <ul class="nav navbar-nav">
+        <li class="active"><a href="Home.html">Home</a></li>
+        <li><a href="Geography.html">Geography</a></li>
+        <li><a href="#">Education</a></li>
+        <li><a href="#">Contact</a></li>
+        <li><a href="#">Archive</a></li>
+      </ul>
+      
+    </div>
+  </div>
+</nav>
+  
+<div class="container-fluid text-center">    
+  <div class="row content">
+    <div class="col-sm-2 sidenav">
+        <br>
+      <p><a href="HOME1769.html">Pre 1769</a></p>
+        <br>
+      <p><a href="#">1769 - 1848</a></p>
+        <br>
+      <p><a href="#">1848 - 1911 </a></p>
+        <br>
+      <p><a href="#">1912 - 1945 </a></p>
+        <br>
+      <p><a href="#">1945- Present </a></p>
+    </div>
+    <div class="col-sm-8 text-left"> 
+      <h1>Welcome!</h1>
+      <p>El Sereno is one of the oldest communites in Los Angeles. </p>
+      <hr>
+      <h3>Introduction</h3>
+      <p> The historical facts presented on this website are done so by the El Sereno Historical Society and the History of El Sereno, as was presented by George Casen on April 18, 1994 to the El Sereno Coordinating Council from 1769-1946.</p>
+          <br>
+          <img src="https://www.amoeba.com/admin/uploads/blog/Eric_B/elsereno.jpg" alt="El Sereno Hand Drawn Map" width="400" height="500">
+    </div>
+    <div class="col-sm-2 sidenav">
+      <div class="well">
+        <p>ADS</p>
+      </div>
+    </div>
+  </div>
+</div>
+
+<footer class="container-fluid text-center">
+  <p>El Sereno Historical Website &trade; is a project created by Elio Barrera for CS1220. The events and history depicted in photography in this website are completly true. Any similarity to actual persons, living or dead, or to acual firms, is purely coincidental. </p>
+</footer>
+
+</body>
+</html>
